@@ -1,0 +1,37 @@
+
+/* body color */
+body{
+    background-color: #EEE;
+}
+
+/* card Margin */
+.col{
+    margin: 30px 0;
+}
+
+/* card styling */
+.card{
+    background: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 40px 0px;
+}
+
+/* logo styling */
+i{
+    color:rgb(66,131,215);
+    padding: 8px;
+}
+
+/* anchor tag styling */
+a{
+    color: blue;
+    font-weight: 500;
+}
+
+.card:hover{
+    Z-index:1;
+    box-shadow: 0px 0px 15px rgb(102, 87, 87) ;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
